@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dona do Doce | Doceria em Barra do Piraí - RJ</title>
+  <meta name="description" content="Brownies, tortas, copos da felicidade e sanduíches. Peça pelo delivery ou visite nossa doceria no Centro de Barra do Piraí. Sabores que contam histórias!">
+  <meta name="theme-color" content="#FBF7F2">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Dona do Doce | Doceria em Barra do Piraí - RJ">
+  <meta property="og:description" content="Brownies, tortas, copos da felicidade e sanduíches. Peça pelo delivery ou visite nossa doceria no Centro de Barra do Piraí. Sabores que contam histórias!">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Dona do Doce | Doceria em Barra do Piraí - RJ">
+  <meta name="twitter:description" content="Brownies, tortas, copos da felicidade e sanduíches. Peça pelo delivery ou visite nossa doceria no Centro de Barra do Piraí. Sabores que contam histórias!">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='none' stroke='%23C5A059' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14 7l3 3 3-4 3 4 3-3-1 6H15z' fill='%23C5A059'/%3E%3Cpath d='M10 20c0-4 4-7 10-7s10 3 10 7c0 1.5-1.2 2.5-2.6 2.5H12.6C11.2 22.5 10 21.5 10 20Z'/%3E%3Cpath d='M12 22.5 15 34h10l3-11.5'/%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap">
+  <link rel="preload" as="image" href="assets/img/hero-brownie.webp" fetchpriority="high">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script>document.documentElement.classList.add("js");</script>
+
+  <!-- Dados para o Google (endereço, horário, Instagram) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Bakery",
+    "name": "Dona do Doce",
+    "description": "Doceria gourmet em Barra do Piraí: brownies, tortas, copos da felicidade e sanduíches.",
+    "telephone": "+55 24 99924-3025",
+    "servesCuisine": ["Doces", "Confeitaria", "Sanduíches"],
+    "priceRange": "R$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua Dr. Morais Barbosa, 138",
+      "addressLocality": "Barra do Piraí",
+      "addressRegion": "RJ",
+      "addressCountry": "BR"
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "10:30", "closes": "19:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "10:30", "closes": "17:00" }
+    ],
+    "hasMenu": "https://delivery.yooga.app/dona-do-doce/tabs/home",
+    "sameAs": [
+      "https://www.instagram.com/adonadodoce_/",
+      "https://web.deliveryon.com.br/cardapio/donadodoce",
+      "https://delivery.yooga.app/dona-do-doce/tabs/home"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#cardapio">Pular para o cardápio</a>
+
+  <!-- Preloader: 100% CSS, nunca bloqueia cliques -->
+  <div class="preloader-layer preloader" aria-hidden="true">
+    <div class="seal preloader-logo">
+      <span class="i" data-icon="cupcake"></span>
+      <span class="seal__dona">Dona</span>
+      <span class="seal__do">do</span>
+      <span class="seal__doce">Doce</span>
+    </div>
+    <p class="eyebrow preloader-logo">Sabores que contam histórias</p>
+  </div>
+
+  <!-- Header -->
+  <header class="header" data-header>
+    <div class="container header__inner">
+      <a class="logo" href="#inicio" aria-label="Dona do Doce, voltar ao início">
+        <span class="i logo__mark" data-icon="cupcake"></span>
+        <span class="logo__text">
+          <span class="logo__dona">Dona</span>
+          <span class="logo__doce eyebrow">do Doce</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Principal">
+        <a href="#cardapio">Cardápio</a>
+        <a href="#encomendas">Encomendas</a>
+        <a href="#espaco">O Espaço</a>
+        <a href="#localizacao">Localização</a>
+      </nav>
+
+      <div class="header__actions">
+        <div class="status status--compact" data-status role="status" aria-live="polite">
+          <span class="status__dot"></span>
+          <span class="status__label">Fechado</span>
+          <span class="status__detail"></span>
+        </div>
+        <a class="icon-btn header__insta" data-link="instagram" href="https://www.instagram.com/adonadodoce_/" target="_blank" rel="noopener noreferrer" aria-label="Instagram da Dona do Doce">
+          <span class="i" data-icon="instagram"></span>
+        </a>
+        <button type="button" class="btn btn--cacau btn--pill header__cta" data-order>
+          <span class="i" data-icon="shopping-bag"></span>Pedir agora
+        </button>
+        <button type="button" class="icon-btn menu-toggle" data-menu-toggle aria-expanded="false" aria-controls="menu-mobile" aria-label="Abrir menu">
+          <span class="menu-toggle__bars" aria-hidden="true"><span></span><span></span><span></span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Menu móvel (até 1024px) -->
+    <nav class="mobile-menu" id="menu-mobile" aria-label="Menu" hidden>
+      <div class="container">
+        <ul class="mobile-menu__links">
+          <li><a href="#cardapio">Cardápio</a></li>
+          <li><a href="#encomendas">Encomendas</a></li>
+          <li><a href="#espaco">O Espaço</a></li>
+          <li><a href="#localizacao">Localização</a></li>
+        </ul>
+        <div class="mobile-menu__actions">
+          <button type="button" class="btn btn--hero btn--xl btn--block" data-order>
+            <span class="i" data-icon="shopping-bag"></span>Pedir agora
+          </button>
+          <a class="btn btn--line btn--xl btn--block" data-link="instagram" href="https://www.instagram.com/adonadodoce_/" target="_blank" rel="noopener noreferrer">
+            <span class="i" data-icon="instagram"></span><span data-bind="instagram-handle">@adonadodoce_</span>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <!-- Hero -->
+    <section class="hero bg-hero" id="inicio">
+      <div class="container">
+        <div class="hero__grid">
+          <div class="hero__copy animate-rise">
+            <p class="hero__eyebrow eyebrow">Comer com os olhos</p>
+            <h1>
+              <span>Sabores que</span>
+              <span>contam</span>
+              <span><em>histórias!</em></span>
+            </h1>
+            <p class="hero__lead">Brownies, tortas e copos da felicidade feitos à mão, com aquele carinho de doceria de bairro, no coração de Barra do Piraí.</p>
+
+            <div class="hero__ctas">
+              <button type="button" class="btn btn--hero btn--xl" data-order>
+                <span class="i" data-icon="shopping-bag"></span>Fazer meu pedido
+              </button>
+              <a class="btn btn--line btn--xl" data-wa="encomenda" href="https://wa.me/5524999243025" target="_blank" rel="noopener noreferrer">
+                <span class="i" data-icon="whatsapp"></span>Encomendas
+              </a>
+            </div>
+
+            <div class="rating">
+              <span class="stars" aria-hidden="true">
+                <span class="i" data-icon="star"></span><span class="i" data-icon="star"></span><span class="i" data-icon="star"></span><span class="i" data-icon="star"></span><span class="i" data-icon="star"></span>
+              </span>
+              <span><strong data-bind="rating-score">4,9</strong> · <span data-bind="rating-count">436</span> avaliações no <span data-bind="rating-source">DeliveryOn</span></span>
+            </div>
+          </div>
+
+          <div class="hero__visual">
+            <div class="hero__frame arch" aria-hidden="true"></div>
+            <div class="hero__photo arch media">
+              <img src="assets/img/hero-brownie.webp" width="1024" height="1280" fetchpriority="high" decoding="async"
+                   alt="Brownie coberto com creme de Ninho, Nutella e morangos, com sofá rosa ao fundo">
+            </div>
+
+            <div class="spin-seal" aria-hidden="true">
+              <svg class="animate-spin-slow" viewBox="0 0 120 120">
+                <defs>
+                  <path id="seal-circle" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/>
+                </defs>
+                <circle cx="60" cy="60" r="58"/>
+                <text><textPath href="#seal-circle" textLength="286" lengthAdjust="spacing">Feito com amor · Barra do Piraí ·</textPath></text>
+              </svg>
+              <span class="spin-seal__heart">♥</span>
+            </div>
+
+            <button type="button" class="tag animate-float" data-order="Brownie Ninho/Nut e Morango" aria-label="Pedir Brownie Ninho e Morango, R$ 15,90">
+              <span class="eyebrow">Queridinho</span>
+              <span class="tag__name">Brownie Ninho &amp; Morango</span>
+              <span class="tag__price">R$ 15,90</span>
+            </button>
+          </div>
+        </div>
+
+        <a class="scroll-cue" href="#cardapio">Ver cardápio<span class="i" data-icon="arrow-down"></span></a>
+      </div>
+    </section>
+
+    <!-- Marquee -->
+    <div class="marquee-wrap" aria-hidden="true">
+      <div class="marquee">
+        <div class="marquee__track animate-marquee" data-marquee></div>
+      </div>
+    </div>
+
+    <!-- Cardápio -->
+    <section class="section" id="cardapio" aria-labelledby="cardapio-titulo">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Nossa vitrine</p>
+          <h2 class="section-title" id="cardapio-titulo">O cardápio da <em>Dona</em></h2>
+          <div class="divider" aria-hidden="true">✿</div>
+        </header>
+
+        <div class="tabs no-scrollbar" role="tablist" aria-label="Categorias do cardápio" data-tabs></div>
+        <div class="products" role="tabpanel" id="cardapio-painel" tabindex="0" data-panel></div>
+
+        <noscript>
+          <p class="menu-note">Ative o JavaScript para ver o cardápio, ou acesse direto pelo nosso delivery.</p>
+        </noscript>
+
+        <div class="menu-cta">
+          <p class="menu-note">Preços sujeitos a alteração · Toque em um doce para escolher onde pedir</p>
+          <a class="btn btn--line btn--pill" data-link="yooga" href="https://delivery.yooga.app/dona-do-doce/tabs/home" target="_blank" rel="noopener noreferrer">
+            Ver cardápio completo no delivery<span class="i" data-icon="arrow-up-right"></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Encomendas -->
+    <section class="section" id="encomendas" aria-labelledby="encomendas-titulo">
+      <div class="container">
+        <div class="orders reveal">
+          <span class="orders__glow orders__glow--a" aria-hidden="true"></span>
+          <span class="orders__glow orders__glow--b" aria-hidden="true"></span>
+
+          <div class="orders__grid">
+            <div>
+              <p class="eyebrow">Encomendas personalizadas</p>
+              <h2 id="encomendas-titulo">Tem uma data especial? <em>A gente adoça.</em></h2>
+              <p>Conte pra gente a ocasião, a quantidade e o sabor dos sonhos. Montamos tudo com o mesmo capricho da nossa vitrine.</p>
+            </div>
+
+            <div>
+              <ul class="perks">
+                <li><span class="i" data-icon="party-popper"></span>Festas &amp; aniversários</li>
+                <li><span class="i" data-icon="gift"></span>Presentes e datas especiais</li>
+                <li><span class="i" data-icon="sparkles"></span>Kits personalizados</li>
+              </ul>
+              <a class="btn btn--whatsapp btn--xl btn--block" data-wa="encomenda" href="https://wa.me/5524999243025" target="_blank" rel="noopener noreferrer">
+                <span class="i" data-icon="whatsapp"></span>Encomendar pelo WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- O Espaço -->
+    <section class="section" id="espaco" aria-labelledby="espaco-titulo">
+      <div class="container space__grid">
+        <div class="space__media reveal">
+          <div class="space__photo media">
+            <img src="assets/img/store-interior.webp" width="594" height="742" loading="lazy" decoding="async"
+                 alt="Salão da Dona do Doce: paredes rosa, mesas brancas, cadeiras de veludo, sofá rosa e o balcão iluminado com a logo">
+          </div>
+          <div class="space__detail media">
+            <img src="assets/img/store-cantinho.webp" width="548" height="685" loading="lazy" decoding="async"
+                 alt="Cantinho da loja com banco dourado, flores de cerejeira e o neon Life is Sweet">
+          </div>
+          <div class="space__note">
+            <strong>Aqui tem amor</strong>
+            <span class="eyebrow">Desde a primeira fornada</span>
+          </div>
+        </div>
+
+        <div class="space__copy reveal">
+          <p class="eyebrow">O espaço</p>
+          <h2 class="section-title" id="espaco-titulo">Um cantinho rosa para <em>desacelerar</em></h2>
+          <p>Sofás aveludados, cheirinho de café e uma vitrine que dá vontade de provar tudo. Venha tomar um café da tarde entre amigas ou levar uma caixinha de doces pra casa.</p>
+
+          <div class="stats">
+            <div><strong><span data-bind="rating-score">4,9</span>★</strong><span>avaliação</span></div>
+            <a class="stats__link" data-link="instagram" href="https://www.instagram.com/adonadodoce_/" target="_blank" rel="noopener noreferrer" aria-label="4,8 mil seguidores no Instagram"><strong>4,8 mil</strong><span>seguidores</span></a>
+            <div><strong>Centro</strong><span>Barra do Piraí</span></div>
+          </div>
+
+          <a class="insta-card" data-link="instagram" href="https://www.instagram.com/adonadodoce_/" target="_blank" rel="noopener noreferrer">
+            <span class="insta-card__icon"><span class="i" data-icon="instagram"></span></span>
+            <span class="insta-card__text">
+              <span class="insta-card__title">Siga a gente no Instagram</span>
+              <span class="insta-card__handle" data-bind="instagram-handle">@adonadodoce_</span>
+            </span>
+            <span class="i insta-card__arrow" data-icon="arrow-up-right"></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Localização -->
+    <section class="section location" id="localizacao" aria-labelledby="localizacao-titulo">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Venha nos visitar</p>
+          <h2 class="section-title" id="localizacao-titulo">Onde a <em>mágica</em> acontece</h2>
+        </header>
+
+        <div class="location__grid">
+          <address class="address-card reveal">
+            <div class="info">
+              <span class="info__icon"><span class="i" data-icon="map-pin"></span></span>
+              <div>
+                <p class="eyebrow">Endereço</p>
+                <p class="info__street">Rua Dr. Morais Barbosa, 138</p>
+                <p class="info__muted">Centro · Barra do Piraí - RJ</p>
+              </div>
+            </div>
+
+            <div class="info">
+              <span class="info__icon"><span class="i" data-icon="clock"></span></span>
+              <div>
+                <p class="eyebrow">Funcionamento</p>
+                <ul class="hours">
+                  <li>Segunda a sexta — 10h30 às 19h</li>
+                  <li>Sábado — 10h30 às 17h</li>
+                  <li class="closed">Domingo — Fechado</li>
+                </ul>
+                <div class="status" data-status role="status" aria-live="polite">
+                  <span class="status__dot"></span>
+                  <span class="status__label">Fechado</span>
+                  <span class="status__detail"></span>
+                </div>
+              </div>
+            </div>
+
+            <a class="btn btn--cacau btn--xl btn--block" data-link="directions" href="https://www.google.com/maps" target="_blank" rel="noopener noreferrer">
+              <span class="i" data-icon="navigation"></span>Como chegar
+            </a>
+          </address>
+
+          <div class="map reveal">
+            <iframe title="Mapa: Dona do Doce em Barra do Piraí" data-map loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé: recibo da impressora térmica -->
+  <footer class="footer" id="contato" aria-labelledby="contato-titulo">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Volte sempre</p>
+        <h2 class="section-title" id="contato-titulo">Seu recibo de <em>doçura</em></h2>
+      </div>
+
+      <div class="printer-wrap" data-printer>
+        <div class="printer" aria-hidden="true">
+          <div class="printer__top">
+            <span>DDD-138 · térmica</span>
+            <span class="printer__led"></span>
+          </div>
+          <div class="printer__slot"></div>
+        </div>
+
+        <div class="paper-wrap">
+          <div class="receipt-print" data-printed="false">
+            <div class="receipt receipt-edge">
+              <div class="receipt__head">
+                <span class="receipt__brand">Dona do Doce</span>
+                <span class="receipt__kind">Confeitaria</span>
+                <span class="receipt__date" data-receipt-date></span>
+              </div>
+
+              <hr>
+              <p class="receipt__title">Horários</p>
+              <ul class="receipt__rows">
+                <li class="receipt__row"><span>Seg a sex</span><span class="dotted-leader"></span><span>10h30–19h</span></li>
+                <li class="receipt__row"><span>Sábado</span><span class="dotted-leader"></span><span>10h30–17h</span></li>
+                <li class="receipt__row"><span>Domingo</span><span class="dotted-leader"></span><span>Fechado</span></li>
+              </ul>
+
+              <hr>
+              <p class="receipt__title">Endereço</p>
+              <p class="receipt__address">Rua Dr. Morais Barbosa, 138<br>Centro · Barra do Piraí/RJ</p>
+
+              <hr>
+              <ul class="receipt__rows">
+                <li class="receipt__row"><span>Sabor</span><span class="dotted-leader"></span><span>100%</span></li>
+                <li class="receipt__row"><span>Carinho</span><span class="dotted-leader"></span><span>∞</span></li>
+                <li class="receipt__row receipt__row--total"><span>Total</span><span class="dotted-leader"></span><span>Felicidade</span></li>
+              </ul>
+
+              <hr>
+              <div class="receipt__actions">
+                <a class="btn btn--whatsapp btn--pill btn--block" data-wa="contato" href="https://wa.me/5524999243025" target="_blank" rel="noopener noreferrer">
+                  <span class="i" data-icon="whatsapp"></span>Falar com a gente
+                </a>
+                <a class="receipt__insta" data-link="instagram" href="https://www.instagram.com/adonadodoce_/" target="_blank" rel="noopener noreferrer">
+                  <span class="i" data-icon="instagram"></span><span data-bind="instagram-handle">@adonadodoce_</span>
+                </a>
+              </div>
+
+              <div class="receipt__barcode barcode" aria-hidden="true"></div>
+              <p class="receipt__thanks">Obrigada pela preferência ♥</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <ul class="socials" aria-label="Onde encontrar a Dona do Doce">
+        <li><a data-link="instagram" href="https://www.instagram.com/adonadodoce_/" target="_blank" rel="noopener noreferrer"><span class="i" data-icon="instagram"></span>Instagram</a></li>
+        <li><a data-link="yooga" href="https://delivery.yooga.app/dona-do-doce/tabs/home" target="_blank" rel="noopener noreferrer"><span class="i" data-icon="bike"></span>Delivery</a></li>
+        <li><a data-link="deliveryon" href="https://web.deliveryon.com.br/cardapio/donadodoce" target="_blank" rel="noopener noreferrer"><span class="i" data-icon="store"></span>DeliveryOn</a></li>
+        <li><a data-wa="contato" href="https://wa.me/5524999243025" target="_blank" rel="noopener noreferrer"><span class="i" data-icon="whatsapp"></span>WhatsApp</a></li>
+      </ul>
+
+      <p class="copyright">© <span data-year>2026</span> Dona do Doce · Barra do Piraí - RJ</p>
+    </div>
+  </footer>
+
+  <!-- WhatsApp flutuante -->
+  <div class="fab">
+    <span class="fab__halo" aria-hidden="true"></span>
+    <a class="fab__btn" data-wa="duvida" href="https://wa.me/5524999243025" target="_blank" rel="noopener noreferrer" aria-label="Tirar dúvidas pelo WhatsApp">
+      <span class="i" data-icon="whatsapp"></span>
+      <span class="fab__text" aria-hidden="true">Dúvidas? Chama aqui</span>
+    </a>
+  </div>
+
+  <!-- Modal de pedido -->
+  <dialog class="order-dialog" id="order-dialog" aria-labelledby="order-title" aria-describedby="order-desc">
+    <div class="sheet-handle" aria-hidden="true"></div>
+    <button type="button" class="dialog-close" data-close>
+      <span class="i" data-icon="x"></span><span class="sr-only">Fechar</span>
+    </button>
+
+    <div class="dialog-head">
+      <p class="eyebrow">Finalizar pedido</p>
+      <h2 class="dialog-title" id="order-title">Onde prefere pedir?</h2>
+      <p class="dialog-desc" id="order-desc">Escolha o canal de delivery e finalize seu pedido por lá.</p>
+    </div>
+
+    <div class="channels">
+      <a class="channel channel--main" data-channel="yooga" href="#" target="_blank" rel="noopener noreferrer">
+        <span class="channel__icon"><span class="i" data-icon="bike"></span></span>
+        <span class="channel__text">
+          <span class="channel__title">Pedir pelo Nosso Delivery</span>
+          <span class="channel__sub">Yooga · com desconto exclusivo</span>
+        </span>
+        <span class="i channel__arrow" data-icon="arrow-up-right"></span>
+      </a>
+      <a class="channel channel--alt" data-channel="deliveryon" href="#" target="_blank" rel="noopener noreferrer">
+        <span class="channel__icon"><span class="i" data-icon="store"></span></span>
+        <span class="channel__text">
+          <span class="channel__title">Pedir pelo DeliveryOn</span>
+          <span class="channel__sub">★ <span data-bind="rating-score">4,9</span> · <span data-bind="rating-count">436</span> avaliações</span>
+        </span>
+        <span class="i channel__arrow" data-icon="arrow-up-right"></span>
+      </a>
+    </div>
+
+    <div class="dialog-foot">
+      <span>Ficou com dúvida?</span>
+      <a data-channel="whatsapp" href="#" target="_blank" rel="noopener noreferrer">
+        <span class="i" data-icon="whatsapp"></span>Fale no WhatsApp
+      </a>
+    </div>
+  </dialog>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/store-hours.js"></script>
+  <script src="assets/js/menu.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

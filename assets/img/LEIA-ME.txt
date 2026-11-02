@@ -1,0 +1,29 @@
+Fotos do site, em WebP. Todas as fotos estão prontas.
+Se uma foto sumir, o site mostra o cupcake dourado da marca no lugar.
+Para trocar a foto de um produto, edite o campo "image" em assets/js/menu.js.
+
+CARDÁPIO (640x640)
+hero-brownie.webp ............. 1024x1280  (hero + Brownie Ninho/Nut e Morango)
+brownie-kinder.webp ........... (Brownie Kinder + Brownie Duo)
+brownie-mm.webp
+brownie-ferrero.webp
+brownie-doce-de-leite.webp
+cheesecake-doce-de-leite.webp
+torta-alema.webp
+torta-limao.webp
+torta-cookie.webp
+copo-ferrero.webp
+copo-morango.webp
+copo-oreo.webp
+baguete-dona-do-doce.webp
+baguete-tatas.webp
+sanduiche-frango.webp
+sanduiche-lombo.webp
+coca-cola.webp
+coca-zero.webp
+agua-com-gas.webp
+agua-sem-gas.webp
+
+A LOJA (seção "O Espaço", fotos verticais 4:5)
+store-interior.webp ........... salão com o balcão da logo (foto principal)
+store-cantinho.webp ........... banco dourado com o neon "Life is Sweet" (foto menor, em arco)

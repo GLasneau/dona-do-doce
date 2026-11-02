@@ -1,0 +1,8 @@
+{
+  "name": "dona-do-doce",
+  "private": true,
+  "description": "Landing page da Dona do Doce, doceria em Barra do Piraí - RJ",
+  "scripts": {
+    "test": "node --test tests/store-hours.test.js"
+  }
+}
